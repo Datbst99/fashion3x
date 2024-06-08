@@ -44,7 +44,7 @@ class ProductShowScreen extends StatelessWidget {
             children: snapshot.data!.docs.map((element) {
               final product = ProductModel.fromMap(element.data() as Map<String, dynamic>);
               return CardShadow(
-                padding: EdgeInsets.all(5),
+                padding: EdgeInsets.all(10),
                 child: Row(
                   children: [
                     Image.network(
@@ -53,6 +53,7 @@ class ProductShowScreen extends StatelessWidget {
                       product.image,
                       fit: BoxFit.cover,
                     ),
+                    SizedBox(width: 10,),
                     Expanded(
                       flex: 1,
                       child: Column(
@@ -74,6 +75,7 @@ class ProductShowScreen extends StatelessWidget {
                         ],
                       ),
                     ),
+                    SizedBox(width: 10,),
                     Row(
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[

@@ -67,7 +67,7 @@ class ProductModel {
       name: map['name'] as String,
       image: map['image'] as String,
       type: map['type'] as String,
-      price: map['price'] as double,
+      price: (map['price'] as num).toDouble(),
     );
   }
 
