@@ -28,7 +28,7 @@ Chức năng chính:
 - Xóa sản phẩm
 
 Hướng dẫn cài đặt:
-1 clone project từ github
-2 run: flutter pub get để cài các thư viện
-3 thiết lập Firebase
-5 chạy ứng dụng
+- 1 clone project từ github
+- 2 run: flutter pub get để cài các thư viện
+- 3 thiết lập Firebase
+- 4 chạy ứng dụng
