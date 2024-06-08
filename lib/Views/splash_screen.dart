@@ -20,6 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      // Kiểm tra đã đăng nhập chưa để vào app
       checkLoginStatus();
     });
   }

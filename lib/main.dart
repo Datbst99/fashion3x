@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    // Config theme cho app
     return MaterialApp(
       title: 'Fashion',
       theme: ThemeData(
@@ -37,6 +39,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
       ),
+      // Sử dụng route để quản lý luông cho rõ ràng
       onGenerateRoute: RouteApp.generateRoute,
     );
   }
